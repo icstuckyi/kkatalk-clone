@@ -1,0 +1,43 @@
+.user-components {
+  justify-content: space-between;
+}
+.user-components,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  margin-right: var(--horizontal-space);
+}
+.user-component__name {
+  font-weight: 600;
+  font-size: 20px;
+}
+.user-component__subname {
+  margin-top: 12px;
+  color: var(--graycolor);
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+}
+.user-component__name-notbold {
+  font-weight: 400;
+}
+.user-component__column:last-child {
+  color: var(--graycolor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-component__time {
+  display: block;
+  margin-bottom: 5px;
+}
