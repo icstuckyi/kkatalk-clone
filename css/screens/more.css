@@ -1,0 +1,28 @@
+.user-component__subname i {
+  color: red;
+  margin-left: 5px;
+}
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+.invisible {
+  width: 67.04px;
+}
+.more-suggestions {
+  font-size: 18px;
+}
+.more-suggestions__title {
+  border-top: var(--main-border);
+  margin-top: 25px; /*collapsing margin 현상으로 모양은 유지됨. 공부해보자*/
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.suggestions__icons {
+  background-color: var(--yellow);
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+}

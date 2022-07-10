@@ -1,23 +1,7 @@
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-}
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.find-icons__icon i {
-  font-size: 35px;
-}
-.find-icons__icon span {
-  margin-top: 20px;
-}
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
   border-top: var(--main-border);
-  border-bottom: var(--main-border);
   font-size: 18px;
   color: var(--graycolor);
 }
@@ -31,6 +15,9 @@
   color: var(--graycolor);
 }
 .open-chat__header {
+  border-top: var(--main-border);
+  margin-top: 25px; /*collapsing margin 현상으로 모양은 유지됨. 공부해보자*/
+  padding-top: 25px;
   display: flex;
   justify-content: space-between;
   text-align: center;
