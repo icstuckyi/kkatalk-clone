@@ -7,7 +7,7 @@
     <title>chat - kkatalk_clone</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -27,14 +27,49 @@
         <a href="more.html"> <i class="fa-solid fa-chevron-left fa-2x"></i></a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">Seulki</h1>
+        <h1 class="alt-header__title">Nicolas</h1>
       </div>
       <div class="alt-header__column">
         <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        <i class="fa-solid fa-bars fa-2x"></i>
       </div>
     </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        <span>Tuesday, July 28, 2058</span>
+      </div>
+      <div class="message-row">
+        <img src="https://avatars.githubusercontent.com/u/85055608" />
+        <div class="message-row__content">
+          <span class="message__author">Nicolas</span>
+          <div class="message__payload">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">12:48</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__payload">
+            <span class="message__bubble">Hello!</span>
+            <span class="message__time">12:55</span>
+          </div>
+        </div>
+      </div>
+    </main>
 
-    <main class="main-screen"></main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message..." />
+        <i class="fa-solid fa-face-grin-squint fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/07ca49cfc8.js"

@@ -11,8 +11,7 @@
   color: var(--graycolor);
   opacity: 0.8;
 }
-.settings__setting-column:last-child {
-  /*왜 last-child 안먹히는지..*/
+.settings__setting:last-child .settings__setting-column:last-child {
   color: var(--graycolor);
   font-size: 18px;
 }
