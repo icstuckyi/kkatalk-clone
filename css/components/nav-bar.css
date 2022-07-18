@@ -15,10 +15,24 @@
 .nav__a {
   position: relative;
 }
+
+@keyframes notificationanimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   position: absolute;
   bottom: 15px;
   left: 15px;
+  animation: notificationanimation 1s ease-in-out infinite;
 }
 
 .nav__notification span:last-child {
@@ -27,4 +41,29 @@
   height: 10px;
   bottom: 25px;
   left: 35px;
+}
+
+@keyframes appearbtnanimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav__a {
+  opacity: 0;
+  animation: appearbtnanimation 1s ease-in-out forwards;
+  animation-delay: 1.5s;
+}
+.nav__a:nth-child(2) {
+  animation-delay: 2.1s;
+}
+.nav__a:nth-child(3) {
+  animation-delay: 2.2s;
+}
+.nav__a:last-child {
+  animation-delay: 2.3s;
 }

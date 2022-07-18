@@ -10,6 +10,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -23,7 +24,6 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   padding-top: 30px;
-  height: 1300vh;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
